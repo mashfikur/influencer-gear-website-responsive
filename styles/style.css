@@ -77,3 +77,19 @@ nav {
     font-size: 1.4rem;
   }
 }
+
+/* medieum device  */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  header {
+    padding: 18px;
+  }
+  nav {
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+  }
+  .nav-menu {
+    margin-top: 10px;
+  }
+}
