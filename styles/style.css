@@ -23,6 +23,10 @@ nav {
   justify-content: space-between;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 .logo {
   color: #3a3a3a;
   font-size: 1.5rem;
@@ -45,4 +49,31 @@ nav {
 .icon {
   font-size: 1.5em;
   cursor: pointer;
+}
+
+/* responsive design */
+
+@media screen and (max-width: 576px) {
+  header {
+    padding: 0;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+  .logo {
+    font-size: 1.2rem;
+  }
+  .mobile-nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.18rem 1rem;
+    font-size: 1.4rem;
+  }
 }
