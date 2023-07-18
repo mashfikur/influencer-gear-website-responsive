@@ -193,7 +193,7 @@ main {
 
 .more-btn {
   text-align: end;
-  margin-left: 900px;
+  margin-left: 1050px;
   color: rgba(224, 44, 109, 0.87);
   font-size: 1rem;
   font-weight: 700;
@@ -201,7 +201,48 @@ main {
   margin-top: 20px;
 }
 
+/* featured section styles */
+
+.featured {
+  margin-top: 6.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.featured-title {
+  color: #0a0826;
+
+  font-size: 2.375rem;
+  font-weight: 700;
+  line-height: 3.75rem;
+  padding-bottom: 1rem;
+}
+
+.featured-text {
+  color: #6c6c6c;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+  padding-bottom: 1rem;
+}
+.featured-right {
+  width: 50%;
+}
+
+.featured-btn {
+  background: #e02c6d;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.6rem 1.5rem;
+  cursor: pointer;
+}
 /* responsive design */
+
+/* small devices */
 
 @media screen and (max-width: 576px) {
   header {
@@ -276,6 +317,22 @@ main {
     margin-left: 270px;
     margin-top: 30px;
   }
+
+  .featured {
+    flex-direction: column-reverse;
+    padding: 3.1rem 1.5rem;
+    margin: 0;
+    text-align: center;
+    gap: 1.87rem;
+  }
+
+  .featured-right {
+    width: 100%;
+  }
+
+  .featured-left img {
+    width: 100%;
+  }
 }
 
 /* medieum device  */
@@ -339,5 +396,34 @@ main {
     margin-top: 30px;
     text-align: start;
     margin-right: 140px;
+  }
+
+  .featured {
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  .featured-left {
+    width: 50%;
+  }
+  .featured-left img {
+    width: 100%;
+  }
+
+  .featured-title {
+    font-size: 1.5rem;
+    line-height: normal;
+  }
+
+  .featured-text {
+    line-height: normal;
+    font-size: 0.9rem;
+  }
+
+  .featured-right {
+    width: 50%;
   }
 }
