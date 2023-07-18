@@ -98,6 +98,23 @@ nav {
   background-size: contain;
 }
 
+/* brand-logo section styles */
+
+.brand-logo {
+  padding: 5rem;
+  padding-bottom: 0;
+}
+
+.brand-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.78rem;
+  border-top: 1px solid rgba(128, 128, 128, 0.316);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.316);
+  padding: 3.5rem;
+}
+
 /* responsive design */
 
 @media screen and (max-width: 576px) {
@@ -143,6 +160,23 @@ nav {
     font-size: 1.75rem;
     line-height: normal;
   }
+
+  .brand-logo {
+    padding: 0;
+    margin-top: 2rem;
+  }
+
+  .brand-logo-container {
+    border: none;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .brand-logo-container img {
+    width: 20%;
+  }
 }
 
 /* medieum device  */
@@ -179,5 +213,22 @@ nav {
   }
   .banner-text {
     font-size: 0.8rem;
+  }
+
+  .brand-logo-container {
+    padding: 50px;
+    gap: 30px;
+    border: none;
+    flex-wrap: wrap;
+    padding-bottom: 0;
+  }
+
+  .brand-logo {
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  .brand-logo-container img {
+    width: 18%;
   }
 }
