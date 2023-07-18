@@ -59,6 +59,13 @@ nav {
   margin-top: 9rem;
 }
 
+.banner-right {
+  padding: 20px;
+}
+
+.banner-left {
+  max-width: 36rem;
+}
 .banner-title {
   color: #3a3a3a;
   font-size: 3.25rem;
@@ -88,6 +95,7 @@ nav {
   background: url("../images/circle-desgin.svg");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 /* responsive design */
@@ -115,6 +123,26 @@ nav {
     padding: 2.18rem 1rem;
     font-size: 1.4rem;
   }
+  .banner {
+    flex-direction: column-reverse;
+    margin-top: 0;
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .banner-right {
+    scale: 0.8;
+  }
+  .banner-right img {
+    width: 100%;
+  }
+  .banner-left {
+    text-align: center;
+  }
+  .banner-title {
+    font-size: 1.75rem;
+    line-height: normal;
+  }
 }
 
 /* medieum device  */
@@ -130,5 +158,26 @@ nav {
   }
   .nav-menu {
     margin-top: 10px;
+  }
+
+  .banner {
+    margin-top: 1rem;
+    gap: 5px;
+  }
+  .banner-right {
+    width: 50%;
+  }
+  .banner-left {
+    width: 50%;
+  }
+  .banner-right img {
+    width: 100%;
+  }
+  .banner-title {
+    font-size: 2rem;
+    line-height: normal;
+  }
+  .banner-text {
+    font-size: 0.8rem;
   }
 }
