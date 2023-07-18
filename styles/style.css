@@ -50,6 +50,45 @@ nav {
   font-size: 1.5em;
   cursor: pointer;
 }
+/* banner section styles */
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 9rem;
+}
+
+.banner-title {
+  color: #3a3a3a;
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 4.375rem;
+}
+
+.banner-text {
+  color: #3a3a3a;
+  font-size: 1rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+.btn-primary {
+  border-radius: 2.5625rem;
+  background: #e02c6d;
+  padding: 0.625rem 1.5rem;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.banner-right {
+  background: url("../images/circle-desgin.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 /* responsive design */
 
