@@ -46,7 +46,7 @@ nav {
   font-weight: 600;
 }
 
-.icon {
+.icon-navbar {
   font-size: 1.5em;
   cursor: pointer;
 }
@@ -238,6 +238,38 @@ main {
   font-size: 1rem;
   font-weight: 700;
   padding: 0.6rem 1.5rem;
+  cursor: pointer;
+}
+
+/* footer section styles */
+
+footer {
+  text-align: center;
+  margin-top: 6.25rem;
+  padding: 3.13rem 0;
+  background: #0a0826;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.footer-text {
+  color: #d9dbe1;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+.icon {
+  font-size: 2rem;
+  margin-left: 1rem;
+  background-color: #0a0826;
   cursor: pointer;
 }
 /* responsive design */
